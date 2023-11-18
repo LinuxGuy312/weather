@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body class="load">
+  <div class="app-wrap blurred">
+    <header>
+      <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city..." name="cityname"/>
+    </header>
+    <main>
+      <section class="location">
+        <div class="city">City, Country</div>
+        <div class="date">Today, Date Month Year</div>
+      </section>
+      <div class="current">
+        <div class="temp">-&deg;c</div>
+        <div class="weather"><img src="assets/weather_icons/03d.png" class="weathericon">Weather</div>
+      </div>
+      <hr>
+    <section class="forecast5">
+      <div class="title">5 Day Forecast</div>
+      <div class="forecast-card forecast-1">
+        <div class="forecast-day">Day</div> 
+        <div class="forecast-temp">--&deg;c</div>
+        <div class="forecast-weather"><img src="assets/weather_icons/03d.png" id="forecast-icon">Weather</div>
+      </div>
+      <div class="forecast-card forecast-2">
+        <div class="forecast-day">Day</div> 
+        <div class="forecast-temp">--&deg;c</div>
+        <div class="forecast-weather"><img src="assets/weather_icons/03d.png" id="forecast-icon">Weather</div>
+      </div>
+      <div class="forecast-card forecast-3">
+        <div class="forecast-day">Day</div> 
+        <div class="forecast-temp">--&deg;c</div>
+        <div class="forecast-weather"><img src="assets/weather_icons/03d.png" id="forecast-icon">Weather</div>
+      </div>
+      <div class="forecast-card forecast-4">
+        <div class="forecast-day">Day</div> 
+        <div class="forecast-temp">--&deg;c</div>
+        <div class="forecast-weather"><img src="assets/weather_icons/03d.png" id="forecast-icon">Weather</div>
+      </div>
+      <div class="forecast-card forecast-5">
+        <div class="forecast-day">Day</div> 
+        <div class="forecast-temp">--&deg;c</div>
+        <div class="forecast-weather"><img src="assets/weather_icons/03d.png" id="forecast-icon">Weather</div>
+      </div>
+      </div>
+    </section>
+    </main>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
